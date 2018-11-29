@@ -10,7 +10,7 @@ exports.create = (req, res) => {
     }
 
     // Create a Daerah
-    const daerah = new Daerah({
+    const daerah = new Deguide({
         idDaerah: req.body.idDaerah, 
         idTempat: req.body.idTempat,
         urlImg: req.body.urlImg

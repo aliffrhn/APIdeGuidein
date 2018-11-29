@@ -9,4 +9,4 @@ const daerah = mongoose.Schema({
     timestamps: true
 });
 
-module.exports = mongoose.model('Daerah', daerah);
+module.exports = mongoose.model('daerah', daerah);
